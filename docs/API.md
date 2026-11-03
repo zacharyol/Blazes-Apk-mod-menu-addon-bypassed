@@ -52,11 +52,3 @@ Fields: `leftHandTransform`, `rightHandTransform`, `headTransform`, `headCollide
 GameObject. Controller buttons: `UnityEngine.XR.InputDevices.GetDeviceAtXRNode`
 (4 = left hand, 5 = right hand) + `TryGetFeatureValue_bool(deviceId, "PrimaryButton" /
 "SecondaryButton" / "GripButton" / "TriggerButton", out value)`. See the starter menu.
-
-## What the game does to keep everyone safe
-
-- Mods load from `Android/data/com.TrassGames.Yeeps/files/mods/*.so` (max 16).
-- A mod that crashed the game is skipped until its file changes.
-- A mod whose updates keep taking over 4 ms, or keep failing, has its updates turned off.
-- A `DISABLE` file in the mods folder turns all mods off.
-- Every loaded mod (file + hash) is written to the game log.
