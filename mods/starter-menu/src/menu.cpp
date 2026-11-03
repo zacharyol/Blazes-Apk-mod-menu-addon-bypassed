@@ -1,12 +1,3 @@
-// Blaze Menu (the starter menu): a hand menu in the style of ii's Stupid Menu (Gorilla Tag).
-// The layout idea comes from ii's menu; the code is new.
-//   Hold Y (left hand)      -> menu on your left hand, tipped like ii's; turn your palm to you
-//                              (B and the right hand with "Right Hand Menu")
-//   Touch a button with your other index finger to press it
-//   < and > on the sides    -> previous / next page
-//   Pages: Movement Mods, Rig Mods, Items, Settings, Enabled Mods
-// Movement only changes your own game. Rig mods (dances) and Items are seen by the room,
-// within the limits in AGENTS.md ("Things others see"). Read docs/GUIDE.md before adding.
 #include "ymsdk.hpp"
 #include <cmath>
 #include <cstdarg>
